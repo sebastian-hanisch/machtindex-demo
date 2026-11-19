@@ -1,7 +1,6 @@
 # Macht in der Genossenschaft: wer entscheidet wirklich? – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-machtindex-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-machtindex-demo.streamlit.app/)**
 
 Teil der [Linie Koalitionen und Teilen](https://sebastianhanisch.net/konzepte-koalitionen-teilen.html). Die Vorläufer sind `shapley-demo` (Shapley-Wert als Kostenanteil einer Sammeltour, wo der Wert alle Reihenfolgen braucht) und `kern-demo`; die Brücke zur Sitzverteilung bildet `sitzverteilung-demo`. Hier geht es um etwas anderes: um die **Macht**, die Stimmen und Sitze in einer Abstimmung verleihen. Nachbarn in der Linie: `graphspiel-demo` (dort verbindet ein Netz die Betriebe, nur zusammenhängende Gruppen arbeiten zusammen, die Verteilungsregel ist der Myerson-Wert), `flussspiel-demo` (nennt diese Demo als Vorgänger: dort der Veto-Spieler als Machtfall) und `kern-zeilenerzeugung-demo` (dort reichen im Gewichtsspiel nach deren README wenige hundert Zeilen für n bis 100; hier ist der Kern des Gewinnspiels nur die Veto-Regel für n bis 5).
 

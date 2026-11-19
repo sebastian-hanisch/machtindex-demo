@@ -33,7 +33,7 @@ def test_every_test_name_the_readme_cites_exists():
 
 def test_readme_has_no_open_placeholders_and_names_the_live_link():
     open_todos = [line for line in README.splitlines() if "TODO" in line]
-    assert open_todos == ["<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):"]      # nur der Live-Link-Platzhalter des Gerüsts
-    assert "sebastianhanisch-machtindex-demo.streamlit.app" in README
+    assert open_todos == []
+    assert "**[→ Demo live ausprobieren](https://sebastianhanisch-machtindex-demo.streamlit.app/)**" in README
     assert "[Linie Koalitionen und Teilen](https://sebastianhanisch.net/konzepte-koalitionen-teilen.html)" in README
     assert "Arbeitsname" not in README
